@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DetailFoodActivity" >
+
+ 	<TextView
+         android:id="@+id/food_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Food Title"
+         android:textAppearance="?android:attr/textAppearanceMedium" >
+     </TextView>
+ 	<TextView
+         android:id="@+id/food_group"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Group"
+         android:textAppearance="?android:attr/textAppearanceMedium" >
+     </TextView>
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+		 android:layout_gravity="center"
+		 android:adjustViewBounds="false"
+         android:src="@drawable/ic_food" />
+
+     
+
+	<ScrollView
+         android:id="@+id/scrollView_page"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <LinearLayout
+             android:id="@+id/linearLayout1"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/food_how"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="How"
+                 android:textColor="#ff6633" >
+             </TextView>
+
+             <TextView
+                 android:id="@+id/food_ingredient"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Ingredient" >
+             </TextView>
+
+
+         </LinearLayout>
+     </ScrollView>
+</LinearLayout>

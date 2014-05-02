@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+ 
+    <LinearLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical" />
+
+
+    <TextView
+        android:id="@+id/topView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Name:"
+        android:textColor="#2c92a0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/topView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Name:"
+        android:textColor="#2c92a0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDevName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/topView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version number:"
+        android:textColor="#2c92a0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/topView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support:"
+        android:textColor="#2c92a0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</LinearLayout>
